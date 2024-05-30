@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+
+<body class="text-black">
     <div class="container">
         <div class="row text-center">
-            <div class="col-sm-12 py-5 px-0">
-                <h1 class="fw-bold">Quote of the Day</h1>
-                <p class="my-4">Press the button below to recieve a random quote!</p>
-                <button onclick="output()" class="text-capitalize border-2 p-3 m-auto">New Quote</button>
-                <div class="text-center">
+            <div class="col-sm-12 px-0">
+                <h1 class="fw-bold my-5">Quote of the Day</h1>
+                <p>Press the button below to recieve a random quote!</p>
+                <button onclick="output()" class="text-capitalize border-2 p-4 m-auto">New Quote</button>
+                <div class="text-center output">
                     <p id="quotesOutput"></p>
                     <p id="author"></p>
                 </div>
